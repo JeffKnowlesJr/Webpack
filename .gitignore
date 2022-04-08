@@ -24,3 +24,9 @@ package-lock.json
 build
 dist
 *.sh
+node_modules
+*.code-workspace
+package-lock.json
+build
+dist
+*.sh
