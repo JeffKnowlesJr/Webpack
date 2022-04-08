@@ -13,3 +13,8 @@ node_modules
 package-lock.json
 build
 *.sh
+node_modules
+*.code-workspace
+package-lock.json
+build
+*.sh
