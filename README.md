@@ -1,5 +1,16 @@
 [Webpack Documentation](https://webpack.js.org/concepts/)
 
 - [Guides](https://webpack.js.org/guides/)
-  - [Getting Started](https://webpack.js.org/guides/getting-started/)
+
+  - [Getting Started](https://webpack.js.org/guides/getting-started)
   - [Using webpack-dev-server](https://webpack.js.org/guides/development/#using-webpack-dev-server)
+  - [Using Loaders](https://webpack.js.org/loaders/)
+    - [Using Babel](https://babeljs.io/setup#installation)
+    - [Using css-loader](https://webpack.js.org/loaders/css-loader/#root)
+    - [Using style-loader](https://webpack.js.org/loaders/style-loader/)
+    - [Using postcss-loader](https://webpack.js.org/loaders/postcss)
+      - [Using cssnano](https://cssnano.co/docs/getting-started/)
+      - [Using autoprefixer](https://github.com/postcss/autoprefixer#autoprefixer-)
+      - [Using cssnano](https://cssnano.co/docs/getting-started/)
+      - [Using satchel-css](https://www.satchel.style/getting-started)
+  - [Using MiniCssExtractPlugin](https://webpack.js.org/plugins/mini-css-extract-plugin/)
