@@ -1,12 +1,14 @@
-module.exports = {
-  plugins: [
-    [
-      'postcss-preset-env',
-      {
-        autoprefixer: {},
-        cssnano: {},
-        'satchel-css': {}
-      }
-    ]
-  ]
+if (process.env.NODE_ENV !== 'production') {
+  module.exports = {
+    plugins: {}
+  }
+}
+
+if (process.env.NODE_ENV !== 'production') {
+  module.exports = {
+    plugins: {
+      autoprefixer: {},
+      cssnano: {}
+    }
+  }
 }
